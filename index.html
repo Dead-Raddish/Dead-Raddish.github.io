@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+
+<!--HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Dev-Wave</title>
+    <link rel="stylesheet" type="text/css" href="./css/liveproject.css">
+
+</head>
+
+<!--/HEAD-->
+
+
+<!--BODY-->
+<body class="Background">
+
+    <!--NAVBAR-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    
+    <br>
+    <br>
+
+    
+    <!--BANNER VIDEO-->
+    <div id="Home">
+        <video autoplay muted loop id="Vapor_Video">
+            <source src="./video/Vapor.mp4" type="video/mp4">            
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    
+    <!--VIDEO TEXT-->
+    <div class="Video_Text">
+        <h1>Hey, I'm <span style="color:#55ebe4">Gavin</span>.</h1>
+            <p class="center">
+                I'm a full-stack developer focused in cyber security. 
+            </p>
+        
+    </div>
+
+    <!--/BANNER VIDEO-->
+
+    
+    <!--ABOUT-->
+    <div class="Row" id="About">
+        <!--LEFT-->
+        <div class="Column_2">
+            <img src="./images/about_photo_2.png" alt="Shoot! I must be a vampire!">
+        </div>
+        <!--RIGHT-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                Very invested in the idea of life-long learning, 
+                I'm a full-stack developer who has always had a knack networking projects, social engeneering and cyber security. 
+                I'm a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Developer/Security Boot Camp, 
+                as well as years of independant experience.  
+                <br>
+                <br>
+                I would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                <br>
+                <br>
+                languages: HTML, CSS, JavaScript, C# and more. 
+               
+            </p>
+        </div>
+    </div>
+
+    <!--/ABOUT-->
+
+
+    <!--GITHUB-->
+    <div class="Row" id="GitHub">
+        <!--LEFT-->
+        <div class="Column_1">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+                <br>
+            <p class="center"><a href="https://github.com/Dead-Raddish" target="_blank">Check out my GitHub</a>
+            </p>
+            </p>
+        </div>
+        <!--RIGHT-->
+        <div class="Column_2">
+            <a href="https://github.com/Dead-Raddish" target="_blank"><img src="./images/github_2.png"
+                    alt="GitHub Logo"></a>
+        </div>
+    </div>
+
+    <!--/GITHUB-->
+
+    
+    <!--CONTACT-->
+    <div class="Row" id="Contact">
+        <!--IMAGE LEFT-->
+        <div class="Column_2 Column_tall">
+            <img src="./images/1sbJ.gif" alt="Contact_Image">
+        </div>
+        <!--RIGHT-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>            
+            <form action="" method="POST">
+                
+<!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                
+                <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!--/CONTACT-->
+
+
+    <!--Footer-->
+    <footer>
+        <p class="center"><span style="color: #55ebe4;">Gavin Alyea</span> &copy2022</p>
+        
+    <!--/Footer-->
+
+    </footer>
+</body>
+
+<!--/BODY-->
+
+</html>
